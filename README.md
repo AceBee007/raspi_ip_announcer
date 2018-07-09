@@ -25,6 +25,11 @@
 ```
 eval 'sudo -u pi python3 [PATH_TO_IP_ANNOUNCER]/run.py &'
 ```
+
+このプロジェクトディレクトリがホームディレクトリ下にあるのときの**例**：
+```
+eval 'sudo -u pi python3 /home/pi/raspi_ip_announcer/run.py &'
+```
 上のコードは「sudoという権限でpiユーザでpython3を使ってrun.pyを実行する」という意味
 - これでラズパイが起動するたびのにrun.pyが実行される
 
@@ -44,7 +49,8 @@ Raspbian Jessieの場合、以上のようなやり方だけでは、`/etc/rc.lo
 [RASPBIAN JESSIEで/etc/rc.localを動作させる方法](https://qiita.com/nuwaa/items/298ada62c4209ea7f9ca)
 
 ## 使い方(Slackでの操作)
-- uec-programming.slack.comを開く
+- Slackでのボットの名前がipbotであると仮定して説明する
+- project-name.slack.comを開く\(ここは各自のプロジェクトチャンネルに入る\)
 - 左のチャット一覧の中で「ダイレクトメッセージ」を探し、その隣のプラスボタンを押す
 - ipbot を検索欄に入力して、ipbotというアプリを探す
 - ipbot をクリックして、右の緑の「開始」ボタンを押す
