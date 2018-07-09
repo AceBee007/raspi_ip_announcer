@@ -15,11 +15,11 @@
   - アルファベットと日本語どちらでもいい
 
 ## 実行
-- ip\_announcerに入り、`python3 run.py`でフォアグラウンドで実行する
+- raspi\_ip\_announcerに入り、`python3 run.py`でフォアグラウンドで実行する
 - あるいは`python3 run.py &`でバックグラウンドで実行する
 
 ## スタートアッププログラムにする
-- ip\_announcerのディレクトリを\[PATH\_TO\_IP\_ANNOUNCER\]と仮定する
+- raspi\_ip\_announcerのディレクトリを\[PATH\_TO\_IP\_ANNOUNCER\]と仮定する
 - /etc/rc.local を編集して\(sudo権限が要る\)、最後の`exit 0`の前に、以下の文を追加してください
 
 ```
